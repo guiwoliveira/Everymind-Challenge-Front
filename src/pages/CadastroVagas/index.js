@@ -49,8 +49,8 @@ const CadastroVagas = () => {
     .then(retorno => retorno.json())
     .then(retorno_convertido => {
 
-      if (retorno_convertido.mensage !== undefined){
-        alert(retorno_convertido.mensage);
+      if (retorno_convertido.mensagem !== undefined){
+        alert(retorno_convertido.mensagme);
       } else {
         setVagas([...vagas, retorno_convertido]);
         alert('Vaga cadastrada com sucesso!');
@@ -73,8 +73,8 @@ const CadastroVagas = () => {
     .then(retorno => retorno.json())
     .then(retorno_convertido => {
 
-      if (retorno_convertido.mensage !== undefined){
-        alert(retorno_convertido.mensage);
+      if (retorno_convertido.mensagem !== undefined){
+        alert(retorno_convertido.mensagem);
       } else {
         // * Menssagem
         alert('Vaga alterada com sucesso!');
@@ -113,7 +113,7 @@ const CadastroVagas = () => {
     .then(retorno_convertido => {
 
       // * Mensagem
-      alert(retorno_convertido.mensage);
+      alert(retorno_convertido.mensagem);
 
       // * Cópia do vetor de vagas
       let vetorTemp = [...vagas];

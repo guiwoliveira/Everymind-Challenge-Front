@@ -13,12 +13,6 @@
     height: 50px;
 }
 
-/** Items */
-.list {
-    display: flex;
-    list-style: none;
-    align-items: center;
-}
 
 .item {
     margin-right: 1em;
@@ -26,13 +20,9 @@
 
 .btn {
     width: 8em;
-    height: 2.5em;
     border: 0px;
     color: #fff;
     border-radius: 7px;
     background: #009DFF;
     text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }

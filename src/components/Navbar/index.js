@@ -13,11 +13,7 @@ function NavBar() {
         <nav>
             <div class={styles.navbar}>
                 <Link to="/"><img src={logo} alt="vagas" /></Link>
-                <ul className={styles.list}>
-                    <li className={styles.logout}>
-                        <button className={styles.btn} onClick={() => [logout(), navigate("/")]}>Logout</button>
-                    </li>
-                </ul>
+                <button className={styles.btn} onClick={() => [logout(), navigate("/")]}>Logout</button>
             </div>          
       </nav>
     )

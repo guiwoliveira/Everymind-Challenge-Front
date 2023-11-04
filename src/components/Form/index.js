@@ -4,7 +4,7 @@ function Formulario({botao, eventoTeclado, cadastrar, obj, cancelar, remover, al
     return(
         <section className={styles.cadastro_container}>
             <h1>Cadastre uma vaga</h1>
-
+            <p>Todos os campos devem ser preenchidos para cadastrar a vaga!</p>
             <form className={styles.form}>
                 <div>
                     <label>Nome da empresa</label>

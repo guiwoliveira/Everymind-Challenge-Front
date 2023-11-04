@@ -20,7 +20,7 @@ function Tabela ({vetor, selecionar}){
                                 <td>{indice+1}</td>
                                 <td>{obj.tipo}</td>
                                 <td>{obj.cargo}</td>
-                                <td>{obj.salario}</td>
+                                <td>R$ {obj.salario}</td>
                                 <td><button onClick={() => {selecionar(indice)}} value="Selecionar" className={styles.btn}>Selecionar</button></td>
                             </tr>
                         ))

@@ -14,11 +14,16 @@ export const Content = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-top: 2em;
   box-shadow: 0 1px 2px #0003;
   background-color: white;
-  max-width: 350px;
+  max-width: 400px;
   padding: 20px;
   border-radius: 5px;
+`;
+
+export const Input = styled.label`
+  background-color: #000;
 `;
 
 export const Label = styled.label`

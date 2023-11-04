@@ -50,7 +50,7 @@ const CadastroVagas = () => {
     .then(retorno_convertido => {
 
       if (retorno_convertido.mensagem !== undefined){
-        alert(retorno_convertido.mensagme);
+        alert(retorno_convertido.mensagem);
       } else {
         setVagas([...vagas, retorno_convertido]);
         alert('Vaga cadastrada com sucesso!');

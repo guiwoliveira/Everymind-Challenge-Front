@@ -21,7 +21,7 @@ function Tabela ({vetor, selecionar}){
                                 <td>{obj.tipo}</td>
                                 <td>{obj.cargo}</td>
                                 <td>{obj.salario}</td>
-                                <td><button onClick={() => {selecionar(indice)}} value="Selecionar" className="btn btn-primary">Selecionar</button></td>
+                                <td><button onClick={() => {selecionar(indice)}} value="Selecionar" className={styles.btn}>Selecionar</button></td>
                             </tr>
                         ))
                     }

@@ -51,23 +51,11 @@
     background-color: #009DFF;
     color: #fff;
     text-decoration: none;
+    border: 0px;
     padding: 0.5em 1em;
-    margin: 7px;
-    border-radius: 7px;
+    border-radius: 5px;
 }
 
 .btn:hover {
     opacity: 70%;
-}
-
-.btn[type="detalhes"] {
-    background-color: #31F787;
-}
-
-.btn[type="editar"] {
-    background-color: #009DFF;
-}
-
-.btn[type="excluir"] {
-    background-color: #FF4444;
 }

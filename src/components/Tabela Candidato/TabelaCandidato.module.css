@@ -1,0 +1,62 @@
+/** Container */
+.tb_container {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tb_container th, td {
+    text-align: left;
+    padding: 1.5em 0;
+    padding-left: 2em;
+}
+
+.tb_container th {
+    font-weight: bolder;
+}
+
+.tb_container td {
+    font-weight: 700;
+}
+
+.tb_container table {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+/** Tabela */
+.tb {
+    max-width: 90%;
+}
+
+.tb_body tr {
+    background-color: #fff;
+    max-width: 700px;
+    padding: 1em;
+    border: 1px solid #b9b9b9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/** Botão */
+.btn_folder {
+    text-align: right;
+    padding-right: 1em;
+}
+
+.btn {
+    background-color: #009DFF;
+    color: #fff;
+    border: 0px;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    margin: 7px;
+    border-radius: 7px;
+}
+
+.btn:hover {
+    opacity: 70%;
+}

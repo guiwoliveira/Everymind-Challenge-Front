@@ -12,7 +12,7 @@ function NavBar() {
     return (
         <nav>
             <div class={styles.navbar}>
-                <Link to="/"><img src={logo} alt="vagas" /></Link>
+                <Link to="/home"><img src={logo} alt="vagas" /></Link>
                 <button className={styles.btn} onClick={() => [logout(), navigate("/")]}>Logout</button>
             </div>          
       </nav>

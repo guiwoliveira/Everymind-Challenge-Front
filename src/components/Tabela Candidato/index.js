@@ -25,12 +25,12 @@ function TabelaCandidato({vetor}) {
                                 <td>{indice+1}</td>
                                 <td>{obj.nome}</td>
                                 <td>{obj.tipo}</td>
-                                <td>{obj.descricao}</td>
+                                <td className={styles.descricao}>{obj.descricao}</td>
                                 <td>{obj.cargo}</td>
                                 <td>{obj.local}</td>
                                 <td>{obj.turno}</td>
-                                <td>{obj.salario}</td>
-                                <td><button className={styles.btn} value="Candidatar-se">Candidatar-se</button></td>
+                                <td>R$ {obj.salario}</td>
+                                <td><button className={styles.btn} value="Candidatar">Candidatar</button></td>
                             </tr>
                         ))
                     }

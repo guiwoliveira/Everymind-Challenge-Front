@@ -49,12 +49,19 @@
 
 .btn {
     background-color: #009DFF;
+    max-height: 40px;
+    font-size: 15px;
     color: #fff;
     border: 0px;
     text-decoration: none;
     padding: 0.5em 1em;
     margin: 7px;
+    margin-right: 1em;
     border-radius: 7px;
+}
+
+.descricao {
+    max-width: 300px;
 }
 
 .btn:hover {

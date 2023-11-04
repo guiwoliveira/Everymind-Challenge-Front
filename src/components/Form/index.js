@@ -8,11 +8,11 @@ function Formulario({botao, eventoTeclado, cadastrar, obj, cancelar, remover, al
             <form className={styles.form}>
                 <div>
                     <label>Nome da empresa</label>
-                    <input type="text" value={obj.nome} onChange={eventoTeclado} name="nome" placeholder="Nome da empresa" />
+                    <input type="text" value={obj.nome} onChange={eventoTeclado} name="nome" placeholder="Nome da empresa"  maxlength="20"/>
                 </div>
                 <div>
                     <label>Tipo de vaga</label>
-                    <input type="text" value={obj.tipo} onChange={eventoTeclado} name="tipo" placeholder="Tipo de vaga" />
+                    <input type="text" value={obj.tipo} onChange={eventoTeclado} name="tipo" placeholder="Tipo de vaga" maxlength="15" />
                 </div>
                 <div>
                     <label>Descrição</label>
@@ -20,19 +20,19 @@ function Formulario({botao, eventoTeclado, cadastrar, obj, cancelar, remover, al
                 </div>
                 <div>
                     <label>Cargo</label>
-                    <input type="text" value={obj.cargo} onChange={eventoTeclado} name="cargo" placeholder="Cargo" />
+                    <input type="text" value={obj.cargo} onChange={eventoTeclado} name="cargo" placeholder="Cargo" maxlength="20"/>
                 </div>
                 <div>
                     <label>Local</label>
-                    <input type="text" value={obj.local} onChange={eventoTeclado} name="local" placeholder="Local" />
+                    <input type="text" value={obj.local} onChange={eventoTeclado} name="local" placeholder="Local" maxlength="50"/>
                 </div>
                 <div>
                     <label>Turno</label>
-                    <input type="text" value={obj.turno} onChange={eventoTeclado} name="turno" placeholder="Turno" />
+                    <input type="text" value={obj.turno} onChange={eventoTeclado} name="turno" placeholder="Turno" maxlength="20"/>
                 </div>
                 <div>
                     <label>Salario</label>
-                    <input type="text" value={obj.salario} onChange={eventoTeclado} name="salario" placeholder="Salário" />
+                    <input type="text" value={obj.salario} onChange={eventoTeclado} name="salario" placeholder="Salário" maxlength="5"/>
                 </div>
             </form>
             <div className={styles.btn_container}>

@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../../components/Navbar';
 import { Link } from 'react-router-dom';
 import styles from './Home.module.css'
+import Footer from '../../components/Footer';
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
         <Link className={styles.btn} to="/cadastro-vagas">Empresa</Link>
         <Link className={styles.btn} to="/vagas">Candidato</Link>
       </div>
+      <Footer />
     </section>
     
   )

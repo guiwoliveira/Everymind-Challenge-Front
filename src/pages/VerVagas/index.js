@@ -2,6 +2,7 @@ import React from 'react'
 import { useEffect, useState } from 'react';
 import NavBar from '../../components/Navbar'
 import TabelaCandidato from '../../components/Tabela Candidato';
+import Footer from '../../components/Footer';
 
 function VerVagas() {
     

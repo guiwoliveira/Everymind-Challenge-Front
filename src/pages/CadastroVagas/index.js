@@ -4,6 +4,7 @@ import * as C from "./styles";
 import Navbar from '../../components/Navbar';
 import Tabela from '../../components/Table';
 import Formulario from '../../components/Form';
+import Footer from "../../components/Footer";
 
 const CadastroVagas = () => {
 
@@ -165,6 +166,7 @@ const CadastroVagas = () => {
           selecionar={selecionarVaga}
         />
       </C.Container>
+      <Footer />
     </div>
   );
 };
